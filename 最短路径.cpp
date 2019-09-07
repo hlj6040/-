@@ -26,7 +26,7 @@ int  main()
 		int  x ,m = INT_MAX;
 		for(int j = 1; j <= n; j++)  
 		{
-			if(!v[j] && d[j] <= m) m = d[x=j];
+			if(!v[j] && d[j] <= m) m = d[x=j];//注意d[j]<=m 而非 d[j] < m
 		}
 		v[x] = 1;
 		for(int j = 1; j <= n; j++)
@@ -39,3 +39,10 @@ int  main()
 		cout << "todokanaikoi";
 	return 0;
  } 
+//
+//
+//
+//在b中找最小时应连<=的情况也一起记录避免找不到最小时程序的不可控（有点牵强，2019.9.7）做题时长1：20；
+//
+//
+//
