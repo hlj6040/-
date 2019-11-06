@@ -1,3 +1,7 @@
+//输入两个数n和q，分别表示n个正整数和q次查找
+//每次查找一个数字x，输出有多少数比x小，有多少个数比x大.
+
+
 #include<iostream>
 #include<algorithm>
 using  namespace std;
